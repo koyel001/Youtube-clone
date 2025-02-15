@@ -27,6 +27,7 @@ h2 {
 .search-bar input {
     padding: 8px;
     width: 400px;
+    cursor: pointer;
     
 }
 
