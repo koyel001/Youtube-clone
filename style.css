@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+h2 {
+
+    margin: 0;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 8px;
+    width: 400px;
+    
+}
+
+.search-bar button {
+    background: white;
+    border: none;
+    cursor: pointer;
+}
+
+button img {
+    width: 25px;
+}
+
+.mic {
+    width: 20px;
+}
+
+.sign-in {
+    color: black;
+    padding: 5px 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.sidebar {
+    width: 145px;
+    position: fixed;
+    padding: 10px;
+    background: white;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar p {
+    /* display: flex; */
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.sidebar img {
+    width: 20px;
+}
+
+.videos {
+    margin-left: 160px;
+    padding: 12px;
+}
+
+.video img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 12px;
+
+}
+
+.video p {
+    color: gray;
+    font-size: 14px;
+}
