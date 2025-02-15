@@ -42,6 +42,7 @@ button img {
 
 .mic {
     width: 20px;
+    cursor: pointer;
 }
 
 .sign-in {
